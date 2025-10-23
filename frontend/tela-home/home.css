@@ -1,0 +1,265 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, input, button {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+::-webkit-scrollbar {
+  width: 1px;
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(184, 182, 182);
+}
+
+.app {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+}
+
+.main{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 32px;
+  padding: 45px 45px;
+  padding-bottom: 20px;
+  overflow-y: auto;
+}
+
+h1{
+  font-size: 25px;
+  font-weight: 500;
+}
+
+p{
+  font-size: 15px;  
+  font-weight: 200;
+}
+
+.main-indicators {
+  display: flex;
+  gap: 30px;
+}
+
+.indicator {
+  border: 1px solid rgba(5, 20, 51, 0.5);
+  border-radius: 20px;
+  padding: 10px 60px;
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+  width: 250px;
+  height: 97px;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.indicator-content {
+    margin-right: -35px;
+}
+
+.indicator-icon img{
+    width: 40px;
+    margin-bottom: 10px;
+}
+
+.indicator-icon{
+    margin-left: -40px;
+    width: 90px;
+    height: 70px;
+    background-color: #051433;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.task{
+    background-color: #F2A85E;
+    padding: 8px;
+}
+
+.task img{
+    margin-bottom: 3px;
+}
+
+.task-content{
+    margin-right: 0px;
+}
+
+.completed{
+    background-color: #34C759;
+    padding: 8px;
+}
+
+.completed img{
+    margin-bottom: 0px;
+    width: 40px;
+}
+
+.indicator p {
+  color: #A1A1AA;
+  font-size: 24px;
+  margin-bottom: -8px;
+  font-weight: 200;
+}
+
+.main-indicators .indicator h2 {
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.main-schedule-today {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 619px;
+  height: 951px;
+  border: 1px solid rgba(5, 20, 51, 0.5);
+  border-radius: 20px;
+  margin-left: 880px;
+  margin-top: -222px;
+  padding-bottom: 20px;
+  
+}
+
+.main-schedule-today header {
+  margin-left: 20px;
+  margin-top: 15px;
+}
+
+.main-schedule-today header h1 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.main-schedule-today header p {
+  font-size: 15px;
+  font-weight: 200;
+}
+
+.date{
+    margin: 15px 18px;
+    border: 1px solid rgb(5, 20, 51);
+    border-radius: 10px;
+    padding: 10px 60px;
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    width: 581px;
+    height: 54px;
+    align-items: center;
+    justify-content: center;
+    background-color:rgba(5, 20, 51, 0.5);
+}
+
+.date h2 {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+
+.days{
+    display: flex;
+    gap: 29px;
+    margin: 0px 75px;
+}
+
+.day{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    border:1px solid rgba(5, 20, 51, 0.5);
+    border-radius: 10px;
+    padding: 10px 15px; 
+    width: 70px;
+    height: 97px;
+}
+
+.active{
+    background-color: #051433;
+    color: #ffffff;
+    border: 1px solid #516ea8;
+    border-radius: 10px;
+    padding: 10px 15px;
+    width: 75px;
+    height: 110px;
+}
+
+.day p {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.action{
+    border: 1px solid rgba(5, 20, 51, 0.5);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 581px;
+    margin: 0px 18px 0px 18px;
+}
+
+.action h2{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.info{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+span{
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.description{
+    margin-left: 18px;
+    margin-top: 10px;
+}
+
+.description p{
+    font-size: 10px;
+    font-weight: 200;
+    width: 550px;
+    margin-bottom: 15px;
+}
+
+.info img{
+    width: 40px;
+    background-color: #34C759;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+
+.sidebar {
+  width: 300px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  padding: 32px;
+  background-color: #051433;
+  color: white;
+  border-right: 1px solid rgb(59, 4, 4);
+}
