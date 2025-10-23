@@ -33,7 +33,7 @@ body, input, button {
   flex-direction: column;
   flex: 1;
   gap: 32px;
-  padding: 45px 45px;
+  padding: 35px 45px;
   padding-bottom: 20px;
   overflow-y: auto;
 }
@@ -56,7 +56,7 @@ p{
 .indicator {
   border: 1px solid rgba(5, 20, 51, 0.5);
   border-radius: 20px;
-  padding: 10px 60px;
+  padding: 20px 60px;
   display: flex;
   flex-direction: row;
   gap: 25px;
@@ -127,12 +127,12 @@ p{
   flex-direction: column;
   gap: 12px;
   width: 619px;
-  height: 951px;
+  height: 900px;
   border: 1px solid rgba(5, 20, 51, 0.5);
   border-radius: 20px;
   margin-left: 880px;
-  margin-top: -222px;
-  padding-bottom: 20px;
+  margin-top: -210px;
+  padding-bottom: 30px;
   
 }
 
@@ -155,15 +155,22 @@ p{
     margin: 15px 18px;
     border: 1px solid rgb(5, 20, 51);
     border-radius: 10px;
-    padding: 10px 60px;
+    padding: 10px 10px;
     display: flex;
     flex-direction: row;
     gap: 25px;
     width: 581px;
     height: 54px;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     background-color:rgba(5, 20, 51, 0.5);
+}
+
+.button-date{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin-top: 5px;
 }
 
 .date h2 {
@@ -176,7 +183,9 @@ p{
 .days{
     display: flex;
     gap: 29px;
-    margin: 0px 75px;
+    margin: 0px 25px;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .day{
@@ -252,9 +261,18 @@ span{
 }
 
 .calendar{
+  border: 1px solid #051433;
+  border-radius: 20px;
+  width: 380px;
+  height: 445px;
   display: flex;
-  margin-top: -820px;
-  margin-left: -70px;
+  flex-direction: column;
+  margin-top: -225px;
+}
+
+.recent-action-container{
+  border: 1px solid #051433;
+  margin-bottom: -355px;
 }
 
 .recent-action{
@@ -262,7 +280,7 @@ span{
   border-radius: 20px;
   width: 410px;
   height: 200px;
-  margin-top: -500px;
+  margin-top: -715px;
   margin-left: 400px;
 }
 
@@ -270,7 +288,6 @@ span{
   margin: 15px 18px;
   font-size: 10px;
   font-weight: 400;
-  
 }
 
 .recent-header p, span{
@@ -292,19 +309,17 @@ span{
   width: 410px;
   height: 180px;
   margin-left: 400px;
-  margin-top: -15px;
+  margin-top: -180px;
 
 }
-
-
 
 .tasks{
   border: 1px solid #051433;
   width: 810px;
-  height: 320px;
-  margin-bottom: -260px;
+  height: 310px;
+  margin-top: -10px ;
   border-radius: 20px;
-  padding: 20px;
+  padding: 15px;
 }
 
 .tasks-header{
@@ -323,7 +338,7 @@ span{
 .colum-category{
   display: flex;
   gap: 40px;
-  padding-top: 20px;
+  padding-top: 10px;
   padding-left: 25px ;
   
 }
@@ -354,4 +369,52 @@ span{
   background-color: #051433;
   color: white;
   border-right: 1px solid rgb(59, 4, 4);
+}
+
+.header-sidebar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img-togger{
+    width: 30px;
+    cursor: pointer;
+}
+
+.img-logo{
+    width: 150px;
+}
+
+.sidebar-nav{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.sidebar-nav-content{
+    display: flex;
+    flex-direction: column;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    list-style: none; 
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    gap: 10px;
+}
+
+li{
+    margin: 0;
+    display: flex;
+    gap: 10px;
 }
