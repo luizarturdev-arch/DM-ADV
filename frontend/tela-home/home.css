@@ -251,6 +251,98 @@ span{
     padding: 5px;
 }
 
+.calendar{
+  display: flex;
+  margin-top: -820px;
+  margin-left: -70px;
+}
+
+.recent-action{
+  border: 1px solid #051433;
+  border-radius: 20px;
+  width: 410px;
+  height: 200px;
+  margin-top: -500px;
+  margin-left: 400px;
+}
+
+.recent-header{
+  margin: 15px 18px;
+  font-size: 10px;
+  font-weight: 400;
+  
+}
+
+.recent-header p, span{
+  font-size: 12px;
+}
+
+.recent-header img{
+  width: 50px;
+  height: 50px;
+}
+
+.recent-description p{
+  width: 370px;
+}
+
+.grafic{
+  border: 1px solid #051433;
+  border-radius: 20px;
+  width: 410px;
+  height: 180px;
+  margin-left: 400px;
+  margin-top: -15px;
+
+}
+
+
+
+.tasks{
+  border: 1px solid #051433;
+  width: 810px;
+  height: 320px;
+  margin-bottom: -260px;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.tasks-header{
+  padding-left: 25px;
+}
+
+
+#line{
+  align-items: center;
+  width: 768px;
+  height: 1px;
+  margin-top: 13px;
+  background: #051433;
+}
+
+.colum-category{
+  display: flex;
+  gap: 40px;
+  padding-top: 20px;
+  padding-left: 25px ;
+  
+}
+
+.category-space{
+  display: flex;
+  gap: 50px;
+  padding-left:120px;
+}
+
+.category-task{
+  gap: 95px;
+}
+
+.tasks-list{
+  display: flex;
+  gap: 10px;
+  padding-top: 10px;
+}
 
 .sidebar {
   width: 300px;
