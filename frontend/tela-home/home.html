@@ -10,6 +10,7 @@
 </head>
 <body>
     <div class="app">
+
         <aside class="sidebar">
             <header class="header-sidebar">
                 <img class="img-logo" src="/frontend/assets/MARCAD_4 1.svg" alt="logo">
@@ -20,40 +21,39 @@
                 <div class="sidebar-nav">
                     <p>Navegação</p>
                     <div class="sidebar-nav-content">
-                    <ul>
-                        <li>
-                            <img src="/frontend/assets/home.svg" alt="home_icon">
-                            <a href="#">Home</a>
-                        </li>
-                        <li>
-                            <img src="/frontend/assets/uis_schedule.svg" alt="schedule_icon">
-                            <a href="#">Agenda</a>
-                        </li>
-                        <li>
-                            <img src="/frontend/assets/clients.svg" alt="clients_icon">    
-                            <a href="#">Clientes</a>
-                        </li>
-                        <li>
-                            <img src="/frontend/assets/process_icon.svg" alt="process_icon">
-                            <a href="#">Processos</a>
-                        </li>
-                        <li>
-                            <img src="/frontend/assets/solar_list-bold.svg" alt="">
-                            <a href="#">Tarefas</a>
-                        </li>
-                    </ul>
+                        <ul>
+                            <li id="home-icon">
+                                <img class="home-icon" src="/frontend/assets/home.svg" alt="home_icon">
+                                <a href="#">Home</a>
+                            </li>
+                            <li>
+                                <img class="item" src="/frontend/assets/uis_schedule.svg" alt="schedule_icon">
+                                <a href="#">Agenda</a>
+                            </li>
+                            <li>
+                                <img class="item" src="/frontend/assets/clients.svg" alt="clients_icon">    
+                                <a href="#">Clientes</a>
+                            </li>
+                            <li>
+                                <img class="item" src="/frontend/assets/process_icon.svg" alt="process_icon">
+                                <a href="#">Processos</a>
+                            </li>
+                            <li>
+                                <img class="item" src="/frontend/assets/solar_list-bold.svg" alt="">
+                                <a href="#">Tarefas</a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
 
             </div>
         </aside>
-
+        <header class="main-header">
+            <h1>Olá, Davi Marinho!</h1>
+            <p>Quarta-feira, 22 de Outubro de 2025</p>
+        </header>
         <main class="main">
-            <header class="main-header">
-                <h1>Olá, Davi Marinho!</h1>
-                <p>Quarta-feira, 22 de Outubro de 2025</p>
-            </header>
-
+            
             <div class="main-indicators">
                 <div class="indicator">
                     <div class="indicator-icon">
@@ -128,7 +128,7 @@
 
                 <div class="action">
                     <div class="action-content">
-                        <header>  
+                        <header class="header-action">  
                             <h2>Prazo - Exigência</h2>
                             <div class="info">
                                 <img src="/frontend/assets/solar_list-bold.svg" alt="img-content">
@@ -140,11 +140,23 @@
                                     <p>Tipo:</p>
                                     <span>Prazo</span>
                                 </div>
+                                <div class="creator">
+                                    <p>Criado por:</p>
+                                    <span>Davi Marinho</span>
+                                </div>
                             </div>
+                            
                         </header>
-                        <div class="description">
-                            <span>Descrição:</span>
-                            <p>DESPACHO PARA SE MANIFESTAR QUANTO À CERTIDÃO DO OFICIAL INFORMANDO QUE NÃO ENCONTROU O CURATELANDO PARA REALIZAR A CITAÇÃO. PRAZO FATAL: 06/11/2025. </p>
+                        <div class="footer-action-content">
+                            <div class="description">
+                                <span>Descrição:</span>
+                                <p>DESPACHO PARA SE MANIFESTAR QUANTO À CERTIDÃO DO OFICIAL INFORMANDO QUE NÃO ENCONTROU O CURATELANDO PARA REALIZAR A CITAÇÃO. PRAZO FATAL: 06/11/2025. </p>
+                            </div>
+
+                            <div class="recipient">
+                                <p>Destinatário:</p>
+                                <img src="/frontend/assets/recipient-icon.svg" alt="recipient-icon">
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -163,11 +175,22 @@
                                     <p>Tipo:</p>
                                     <span>Prazo</span>
                                 </div>
+                                <div class="creator">
+                                    <p>Criado por:</p>
+                                    <span>Davi Marinho</span>
+                                </div>
                             </div>
                         </header>
-                        <div class="description">
-                            <span>Descrição:</span>
-                            <p>DESPACHO PARA SE MANIFESTAR QUANTO À CERTIDÃO DO OFICIAL INFORMANDO QUE NÃO ENCONTROU O CURATELANDO PARA REALIZAR A CITAÇÃO. PRAZO FATAL: 06/11/2025. </p>
+                       <div class="footer-action-content">
+                            <div class="description">
+                                <span>Descrição:</span>
+                                <p>DESPACHO PARA SE MANIFESTAR QUANTO À CERTIDÃO DO OFICIAL INFORMANDO QUE NÃO ENCONTROU O CURATELANDO PARA REALIZAR A CITAÇÃO. PRAZO FATAL: 06/11/2025. </p>
+                            </div>
+
+                            <div class="recipient">
+                                <p>Destinatário:</p>
+                                <img src="/frontend/assets/recipient-icon.svg" alt="recipient-icon">
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -186,11 +209,22 @@
                                     <p>Tipo:</p>
                                     <span>Prazo</span>
                                 </div>
+                                <div class="creator">
+                                    <p>Criado por:</p>
+                                    <span>Davi Marinho</span>
+                                </div>
                             </div>
                         </header>
-                        <div class="description">
-                            <span>Descrição:</span>
-                            <p>DESPACHO PARA SE MANIFESTAR QUANTO À CERTIDÃO DO OFICIAL INFORMANDO QUE NÃO ENCONTROU O CURATELANDO PARA REALIZAR A CITAÇÃO. PRAZO FATAL: 06/11/2025. </p>
+                        <div class="footer-action-content">
+                            <div class="description">
+                                <span>Descrição:</span>
+                                <p>DESPACHO PARA SE MANIFESTAR QUANTO À CERTIDÃO DO OFICIAL INFORMANDO QUE NÃO ENCONTROU O CURATELANDO PARA REALIZAR A CITAÇÃO. PRAZO FATAL: 06/11/2025. </p>
+                            </div>
+
+                            <div class="recipient">
+                                <p>Destinatário:</p>
+                                <img src="/frontend/assets/recipient-icon.svg" alt="recipient-icon">
+                            </div>
                         </div>
                     </div>
                 </div>
